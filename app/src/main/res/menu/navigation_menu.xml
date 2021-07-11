@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/rentSpot"
+        android:title="@string/rent_spot"
+        android:icon="@drawable/ic_baseline_park"/>
+
+    <item android:id="@+id/registerSpot"
+        android:title="@string/register_spot"
+        android:icon="@drawable/ic_baseline_register"/>
+
+    <item android:id="@+id/payments"
+        android:title="@string/payments"
+        android:icon="@drawable/ic_baseline_payments"/>
+
+</menu>

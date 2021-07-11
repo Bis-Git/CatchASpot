@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hr.algebra.catchaspotapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CatchASpotApp"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".PaymentPagerActivity"></activity>
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".ParkedActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ParkingSpotPagerActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name=".CASService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name=".CASProvider"
+            android:authorities="hr.algebra.catchaspotapp.api.provider"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".CASReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.LoginTheme" />
+        <activity android:name=".HostActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

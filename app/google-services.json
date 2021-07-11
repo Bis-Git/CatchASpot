@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "613833477110",
+    "project_id": "catchaspot",
+    "storage_bucket": "catchaspot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613833477110:android:4cd27b11cf726e4b2895d7",
+        "android_client_info": {
+          "package_name": "hr.algebra.catchaspotapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613833477110-0lm1nakp9nvku5d1crrifbuak054l17k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBddvnkOohmn8lunnQVIhEXse-_uhnwZ4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613833477110-0lm1nakp9nvku5d1crrifbuak054l17k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

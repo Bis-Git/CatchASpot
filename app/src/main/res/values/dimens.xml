@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashScreenTextSize">50sp</dimen>
+    <dimen name="padding_50_dp">50dp</dimen>
+    <dimen name="layout_height_400_dp">400dp</dimen>
+    <dimen name="header_width">150dp</dimen>
+    <dimen name="header_height">100dp</dimen>
+    <dimen name="header_margin">25dp</dimen>
+    <dimen name="margin_top_login">90dp</dimen>
+    <dimen name="text_size_login">20sp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="register_btn_margin">10dp</dimen>
+    <dimen name="map_margin">10dp</dimen>
+    <dimen name="iv_height">350dp</dimen>
+    <dimen name="margin_top_20dp">20dp</dimen>
+    <dimen name="padding_top_20dp">20dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="nav_view_width">160dp</dimen>
+    <dimen name="lottie_height">200dp</dimen>
+    <dimen name="text_size_40dp">40sp</dimen>
+    <dimen name="splash_height">1000dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="dimension_50dp">50dp</dimen>
+    <dimen name="corner_radius">9dp</dimen>
+</resources>
